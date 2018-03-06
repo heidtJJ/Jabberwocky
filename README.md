@@ -10,3 +10,13 @@ This takes as input a text file of bits (where each bit is given by either the c
 
 <strong>wocky:</strong><br>
 This takes as input a text file of bits (where each bit is given by either the character '0' or the character '1') and outputs a text file of bits. This transformation will undo jabber.
+
+Here is T.S. Eliot's poem <a href="hollow.txt">Hollow Men</a> in free form.
+Test my program on the above poem.
+
+    $ ./atob hollow.txt bit-hollow.txt
+    $ ./jabber bit-hollow.txt zap-hollow.txt
+    $ ./wocky zap-hollow.txt kapow-hollow.txt
+    $ ./btoa kapow-hollow.txt out.txt
+    $ diff hollow.txt out.txt
+Here are some output files: <a href="bit-hollow.txt"></a>, <a href="zap-hollow.txt"></a>, <a href="kapow-hollow.txt"></a>, and <a href="out.txt"></a>.
