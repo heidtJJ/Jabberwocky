@@ -1,4 +1,7 @@
 # Jabberwocky
+
+<h2>Computer Organization assignment at Clarkson University</h2>
+
 <strong>atob:</strong><br>
 This takes as input a text file and outputs a text file of bits where each ASCII character in the input file is replaced by the sequence of bits which represents its ASCII code. Each bit is represented by either the character '0' or the character '1'.
 
