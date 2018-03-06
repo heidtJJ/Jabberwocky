@@ -19,4 +19,4 @@ Test my program on the above poem.
     $ ./wocky zap-hollow.txt kapow-hollow.txt
     $ ./btoa kapow-hollow.txt out.txt
     $ diff hollow.txt out.txt
-Here are some output files: <a href="bit-hollow.txt"></a>, <a href="zap-hollow.txt"></a>, <a href="kapow-hollow.txt"></a>, and <a href="out.txt"></a>.
+Here are some output files: <a href="bit-hollow.txt">bit-hollow.txt</a>, <a href="zap-hollow.txt">zap-hollow.txt</a>, <a href="kapow-hollow.txt">kapow-hollow.txt</a>, and <a href="out.txt">out.txt</a>.
