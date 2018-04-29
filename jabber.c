@@ -139,7 +139,6 @@ char* intToBinary(const int num, const int numBits){
 	if( !(numBits > 0) ){
 		return emptyString();
 	}	
-	
 	char* binaryString = malloc(sizeof(char)*numBits+1);
 	binaryString[numBits] = '\0';
 	
@@ -149,11 +148,10 @@ char* intToBinary(const int num, const int numBits){
 		binaryString[numBits-1-i] = (num >> i) & 0x1 ? '1' : '0';
 		++bitsCounter;
 	}
-	
+
 	for (i = bitsCounter; i < numBits; i++){
 
 		binaryString[i] = '0';
 	}
-	
 	return binaryString;
 }
